@@ -2,13 +2,14 @@
   "name": "visionbuild",
   "version": "1.0.0",
   "description": "VisionBuild is a shopping and budgeting app to hep users plan their dream builds, manage budgets, and track expenses.",
-  "main": "index.js",
+  "main": "src/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "body-parser": "^1.20.3",
     "cors": "^2.8.5",
